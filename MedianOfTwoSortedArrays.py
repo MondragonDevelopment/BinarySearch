@@ -1,3 +1,5 @@
+# The main idea here is to create two partitions of length = total length // 2 (when combined)
+
 def median(n, m):
     total_len = len(n) + len(m)
     middle = (total_len)//2
